@@ -1,5 +1,8 @@
+import filewatcher.ProcessFileWatcher
 
 fun main(args: Array<String>) {
+
+    ProcessFileWatcher().watchAndProcessFiles()
 
     val inputs = listOf(
         "001ç1234567891234çPedroç50000",
@@ -18,13 +21,5 @@ fun main(args: Array<String>) {
         inputs
     )
 
-    //pior-venda monetarios
-    println("Total Clients: ${result.client.size}")
-    println("Total Salesman: ${result.salesman.size}")
-    println("Most Higher Sale: ${result.mostHigherSale}")
-    println("Worst Sale: ${result.worstSale}")
-    println("Worst Salesman: ${result.worstSalesman}")
-    println("Best Salesman: ${result.bestSalesman}")
 
-    print("end")
 }

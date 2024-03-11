@@ -1,0 +1,6 @@
+Total Clients: 2
+Total Salesman: 2
+Most Higher Sale: Sale(saleId=10, salesmanName='Pedro', totalSale=1199.0)
+Worst Sale: Sale(saleId=8, salesmanName='Paulo', totalSale=393.5)
+Worst Salesman: Group(salesman='DBL', sum=393.5)
+Best Salesman: Group(salesman='Pedro', sum=2398.0)
